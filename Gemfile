@@ -7,6 +7,8 @@ gem 'rails', '3.2.1'
 
 gem 'sqlite3'
 
+gem 'gravatar_image_tag', '1.0.0.pre2'
+
 gem 'json'
 
 # Gems used only for assets and not required
@@ -30,6 +32,7 @@ group :test do
   gem 'rspec-rails', '2.8.1'
   gem 'webrat', '0.7.3'
   gem 'spork', '0.9.0.rc8'
+  gem 'factory_girl_rails', '1.7.0'
 end
 
 gem 'jquery-rails'
